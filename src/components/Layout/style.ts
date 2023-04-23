@@ -16,5 +16,4 @@ export const Main = styled("main")({
 export const OutletWrapper = styled("section")(({ theme }) => ({
   flex: "1 0",
   padding: theme.spacing(2.5),
-  overflowY: "auto",
 }));

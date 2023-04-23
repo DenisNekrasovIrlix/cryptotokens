@@ -8,7 +8,9 @@ export const Layout = () => {
     <LayoutWrapper>
       <Main>
         <Header />
-        <OutletWrapper>
+        <OutletWrapper sx={{
+          overflowY: "overlay"
+        }}>
           <Outlet />
         </OutletWrapper>
         <Footer />
