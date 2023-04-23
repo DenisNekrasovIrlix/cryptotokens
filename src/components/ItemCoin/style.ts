@@ -2,7 +2,8 @@ import { styled } from "@mui/system";
 import { Grid } from "@mui/material";
 export const ImageCoin = styled("img")({
   textDecoration: "none",
-  maxWidth: "4rem",
+  width: "4rem",
+  height: "3.5rem"
 });
 export const CoinWrapper = styled(Grid)(({ theme }) => ({
   width: "22rem",
